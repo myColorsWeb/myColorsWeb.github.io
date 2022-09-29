@@ -79597,15 +79597,25 @@ s.x1$=0
 s=this.f
 s.x2$=r
 s.x1$=0},
-L(a){var s,r=this,q=null,p=A.awB("arrow_up_lottie.json"),o=A.cV("Sign In",q,q,q,A.cz(q,q,$.cP(),q,q,q,q,q,q,q,q,30,q,q,q,q,q,!0,q,q,q,q,q,q,q,q),q,q),n=A.cV(u.f,q,q,q,A.cz(q,q,$.cP(),q,q,q,q,q,q,q,q,14,q,q,q,q,q,!0,q,q,q,q,q,q,q,q),q,q),m=t.w,l=a.O(m).f,k=$.cP()
-k.toString
-l=A.wa(k,a,r.e,"Email",new A.amt(),new A.amu(),l.a.a/2)
-k=a.O(m).f
-s=$.cP()
-s.toString
-k=A.wa(s,a,r.f,"Password",new A.amv(),new A.amz(),k.a.a/2)
-m=a.O(m).f
-return A.oJ(q,A.abZ(q,B.b9,A.j8(A.j8(A.arj(A.ZS(A.a([p,o,B.wB,n,B.eZ,l,B.eY,k,B.eZ,A.ld(A.avF(B.NY,new A.amA(r,a)),50,m.a.a/2.5)],t.F),B.cm,B.dh,B.cw),r.d),q,q),q,q),q),B.ai,!1,q,q,q,q,q,q,q,q,q,q,new A.amB(),q,q,q,q,q,q)}}
+L(a){var s,r,q=this,p=null,o=A.a([],t.F),n=t.w
+if(a.O(n).f.a.a>=500)o.push(A.awB("arrow_up_lottie.json"))
+o.push(A.cV("Sign In",p,p,p,A.cz(p,p,$.cP(),p,p,p,p,p,p,p,p,30,p,p,p,p,p,!0,p,p,p,p,p,p,p,p),p,p))
+o.push(B.wB)
+o.push(A.cV(u.f,p,p,p,A.cz(p,p,$.cP(),p,p,p,p,p,p,p,p,14,p,p,p,p,p,!0,p,p,p,p,p,p,p,p),p,p))
+o.push(B.eZ)
+s=a.O(n).f
+r=$.cP()
+r.toString
+o.push(A.wa(r,a,q.e,"Email",new A.amt(),new A.amu(),s.a.a/2))
+o.push(B.eY)
+s=a.O(n).f
+r=$.cP()
+r.toString
+o.push(A.wa(r,a,q.f,"Password",new A.amv(),new A.amz(),s.a.a/2))
+o.push(B.eZ)
+n=a.O(n).f
+o.push(A.ld(A.avF(B.NY,new A.amA(q,a)),50,n.a.a/2.5))
+return A.oJ(p,A.abZ(p,B.b9,A.j8(A.j8(A.arj(A.ZS(o,B.cm,B.dh,B.cw),q.d),p,p),p,p),p),B.ai,!1,p,p,p,p,p,p,p,p,p,p,new A.amB(),p,p,p,p,p,p)}}
 A.amB.prototype={
 $0(){var s=$.I.G$.f.f
 return s==null?null:s.nb()},
@@ -79672,8 +79682,10 @@ s=a.O(m).f
 r=$.cP()
 r.toString
 s=A.wa(r,a,q.r,"Confirm Password",new A.amG(),new A.amw(),s.a.a/2)
-m=a.O(m).f
-return A.oJ(p,A.abZ(p,B.b9,A.j8(A.j8(A.arj(A.ZS(A.a([o,B.wB,n,B.eZ,l,B.eY,k,B.eY,s,B.eZ,A.ld(A.avF(B.NX,new A.amx(q,a)),50,m.a.a/2.5),A.awB("arrow_down_lottie.json")],t.F),B.cm,B.dh,B.cw),q.d),p,p),p,p),p),B.ai,!1,p,p,p,p,p,p,p,p,p,p,new A.amy(),p,p,p,p,p,p)}}
+r=a.O(m).f
+r=A.a([o,B.wB,n,B.eZ,l,B.eY,k,B.eY,s,B.eZ,A.ld(A.avF(B.NX,new A.amx(q,a)),50,r.a.a/2.5)],t.F)
+if(a.O(m).f.a.a>=500)r.push(A.awB("arrow_down_lottie.json"))
+return A.oJ(p,A.abZ(p,B.b9,A.j8(A.j8(A.arj(A.ZS(r,B.cm,B.dh,B.cw),q.d),p,p),p,p),p),B.ai,!1,p,p,p,p,p,p,p,p,p,p,new A.amy(),p,p,p,p,p,p)}}
 A.amI.prototype={
 $0(){var s=this.a.c
 s.toString
