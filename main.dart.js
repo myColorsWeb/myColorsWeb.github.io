@@ -80270,7 +80270,7 @@ s.x1$=0
 s=this.f
 s.x2$=r
 s.x1$=0},
-K(a){var s,r=this,q=null,p=t.w,o=a.O(p).f.a.a>=500?A.a7g("arrow_up_lottie.json"):A.a7g("arrow_up_35.json"),n=A.cU("Sign In",q,q,q,A.cm(q,q,$.cw(),q,q,q,q,q,q,q,q,30,q,q,q,q,q,!0,q,q,q,q,q,q,q,q),q,q),m=A.cU("Access your Favs via\nweb or Android",q,q,q,A.cm(q,q,$.cw(),q,q,q,q,q,q,q,q,14,q,q,q,q,q,!0,q,q,q,q,q,q,q,q),q,q),l=a.O(p).f,k=$.cw()
+K(a){var s,r=this,q=null,p=t.w,o=a.O(p).f.a.a>=500?A.a7g("arrow_up_lottie.json"):A.a7g("arrow_up_35.json"),n=A.cU("Sign In",q,q,q,A.cm(q,q,$.cw(),q,q,q,q,q,q,q,q,30,q,q,q,q,q,!0,q,q,q,q,q,q,q,q),q,q),m=A.cU("Access your Favs\nvia web or Android",q,q,q,A.cm(q,q,$.cw(),q,q,q,q,q,q,q,q,14,q,q,q,q,q,!0,q,q,q,q,q,q,q,q),q,q),l=a.O(p).f,k=$.cw()
 k.toString
 l=A.wk(k,a,r.e,"Email",B.cN,40,new A.amZ(),new A.an_(),l.a.a/2)
 k=a.O(p).f
@@ -80341,7 +80341,7 @@ s.x1$=0
 s=q.r
 s.x2$=r
 s.x1$=0},
-K(a){var s,r,q=this,p=null,o=A.cU("Sign Up",p,p,p,A.cm(p,p,$.cw(),p,p,p,p,p,p,p,p,30,p,p,p,p,p,!0,p,p,p,p,p,p,p,p),p,p),n=A.cU("Access your Favs via\nweb or Android",p,p,p,A.cm(p,p,$.cw(),p,p,p,p,p,p,p,p,14,p,p,p,p,p,!0,p,p,p,p,p,p,p,p),p,p),m=t.w,l=a.O(m).f,k=$.cw()
+K(a){var s,r,q=this,p=null,o=A.cU("Sign Up",p,p,p,A.cm(p,p,$.cw(),p,p,p,p,p,p,p,p,30,p,p,p,p,p,!0,p,p,p,p,p,p,p,p),p,p),n=A.cU("Access your Favs\nvia web or Android",p,p,p,A.cm(p,p,$.cw(),p,p,p,p,p,p,p,p,14,p,p,p,p,p,!0,p,p,p,p,p,p,p,p),p,p),m=t.w,l=a.O(m).f,k=$.cw()
 k.toString
 l=A.wk(k,a,q.e,"Email",B.cN,40,new A.an7(),new A.an8(),l.a.a/2)
 k=a.O(m).f
