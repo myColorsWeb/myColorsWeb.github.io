@@ -81835,11 +81835,10 @@ $0(){var s=this.a
 return s.ah(new A.aj5(s))},
 $S:0}
 A.aj5.prototype={
-$0(){var s=this.a,r=s.f
-s.f=!r
-s=s.d
-if(r)s.OD(0,B.h1,B.b9)
-else s.OD(1,B.bY,B.b9)},
+$0(){var s=this.a,r=s.d
+if(s.f){r.OD(0,B.h1,B.b9)
+s.f=!1}else{r.OD(1,B.bY,B.b9)
+s.f=!0}},
 $S:0}
 A.p2.prototype={
 al(){return new A.SB(A.a([],t.Jf),B.k)}}
@@ -81853,7 +81852,7 @@ s.toString
 r=A.cl("Add Color",p,p,p,A.bX(p,p,$.bY(),p,p,p,p,p,p,p,p,p,p,p,p,p,p,!0,p,p,p,p,p,p,p,p),p,p)
 q=$.bY()
 q.toString
-A.GP("",A.kU(A.a([new A.y4(q,new A.akX(o,this),!1,B.G_,p),B.L1,A.cl("Double-Click to a color copy\nLong-Press a color to remove",p,p,p,A.bX(p,p,q,p,p,p,p,p,p,p,p,p,p,p,p,p,p,!0,p,p,p,p,p,p,p,p),p,p)],t.F),B.ar,B.aP,B.at),s,p,new A.akY(o,this),"Save",r)},
+A.GP("",A.kU(A.a([new A.y4(q,new A.akX(o,this),!1,B.G_,p),B.L1,A.cl("Double-Click a color copy\nLong-Press a color to remove",p,p,p,A.bX(p,p,q,p,p,p,p,p,p,p,p,p,p,p,p,p,p,!0,p,p,p,p,p,p,p,p),p,p)],t.F),B.ar,B.aP,B.at),s,p,new A.akY(o,this),"Save",r)},
 a1y(a){var s=this.c.P(t.w).f.a.a>=500?4:2
 return new A.db(B.nr,A.ayA(new A.Pm(s,10,10,2),new A.akU(this,a),a.length),null)},
 K(a){return A.OB(null,B.b8,this.a1y(this.d),A.a4O($.bY(),B.DC,!1,new A.akZ(this)))}}
@@ -82217,7 +82216,7 @@ while(true)switch(s){case 0:n=q.a
 s=n.d.ga3().m4()?2:3
 break
 case 2:s=6
-return A.U(A.a4a(n.e.a.a,n.f.a.a),$async$$0)
+return A.U(A.a4a(n.e.a.a.toLowerCase(),n.f.a.a),$async$$0)
 case 6:s=b!=null?4:5
 break
 case 4:p=$.aY
@@ -82339,7 +82338,7 @@ break
 case 2:l.HD()
 p=q.b
 s=4
-return A.U(A.Kd(l.e.a.a,new A.aoC(l,p),l.f.a.a),$async$$0)
+return A.U(A.Kd(l.e.a.a.toLowerCase(),new A.aoC(l,p),l.f.a.a),$async$$0)
 case 4:o=b
 s=o!=null&&J.aH(o.a.c,"emailVerified")?5:6
 break
